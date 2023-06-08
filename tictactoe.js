@@ -62,6 +62,8 @@ function winningSquares(s1, s2, s3) {
     s3.classList.add('winner');
     isWinner = true;
     whoseTurn.innerHTML = s1.innerHTML + ' wins! Play again.';
+    $('.modal').modal('show')
+
     fire(0.25, {
         spread: 26, startVelocity: 55, 
     });

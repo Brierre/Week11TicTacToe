@@ -15,8 +15,11 @@ font-size: 48px;
 
 .dark {
     background-color: #777777;
+    border: 1px solid #777778;
+    border-radius: 5px;
     color: #fff;
     margin: 5px;
+    box-shadow: 4px 6px 10px #888888;
 }
 
 .square:hover {
@@ -56,14 +59,12 @@ font-size: 48px;
     animation-iteration-count: 1;
 }
 
-.loser {
-    animation-name: wiggle;
-    animation-duration: 1s;
-    animation-timing-function: linear;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-}
-
 span {
     font-size: 30px;
+}
+
+.modal {
+    font-size: 40px;
+    justify-content: center;
+    text-align: center;
 }
