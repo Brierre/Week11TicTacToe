@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <div id="main" class="container text-center align-items-center">
+        <h2>Tic Tac Toe</h2>
+        <span id="turn">Let's Play! X goes first.</span>
+        <div class="row"> 
+            <div id="one" class="col dark square" onclick="gamePlay();"></div>
+            <div id="two" class="col dark square" onclick="gamePlay();"></div>
+            <div id="three" class="col dark square" onclick="gamePlay();"></div>
+        </div>
+        <div class="row"> 
+            <div id="four" class="col dark square" onclick="gamePlay();"></div>
+            <div id="five" class="col dark square" onclick="gamePlay();"></div>
+            <div id="six" class="col dark square" onclick="gamePlay();"></div>
+        </div>
+        <div class="row"> 
+            <div id="seven" class="col dark square" onclick="gamePlay();"></div>
+            <div id="eight" class="col dark square" onclick="gamePlay();"></div>
+            <div id="nine" class="col dark square" onclick="gamePlay();"></div>
+        </div>
+    </div>
+
+    <button class="btn btn-dark" id="resetGame">Reset Game / Play Again</button>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="tictactoe.js"></script>
+</body>
+</html>
